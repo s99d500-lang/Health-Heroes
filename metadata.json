@@ -1,0 +1,6 @@
+{
+  "name": "أبطال الصحة | رحلة الوعي والوقاية من السكري",
+  "description": "موقع إلكتروني تعليمي وتوعوي تفاعلي لطالبات المرحلة الابتدائية لتعزيز الوعي الصحي والوقاية من السكري - إعداد وتنفيذ أ. خلود الحريصي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

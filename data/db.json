@@ -1,0 +1,1408 @@
+{
+  "adminPasswordHash": "$2b$10$rxbvntj3xiH2v7Owb3ID6eqnA4uML9gSfneHgbcP34DIaocEmZWLK",
+  "teacherSessions": [
+    {
+      "token": "9a9b65cd6f9b3d56e3485991ae32e5fa60cee6260f241cbeac0bb94d3b7e6a26",
+      "expiresAt": 1794454119073,
+      "createdAt": 1794425319073
+    },
+    {
+      "token": "95695d0bd9deb8bd2df036af729ff877043fb25f0eceee1a9d08d736fe83b1b3",
+      "expiresAt": 1794454123157,
+      "createdAt": 1794425323157
+    }
+  ],
+  "settings": {
+    "welcomeTitle": "صحتكِ كنز.. فاحفظيها بالوعي",
+    "welcomeSubtitle": "كل اختيار صحي اليوم، يصنع حياة أجمل غدًا",
+    "welcomeQuotes": [
+      "صحتكِ كنز.. فاحفظيها بالوعي",
+      "كل اختيار صحي اليوم، يصنع حياة أجمل غدًا",
+      "كوني بطلة الوعي الصحي، وانشري المعرفة والوقاية بين أسرتكِ ومجتمعكِ",
+      "أهلًا بكِ يا بطلة الصحة!"
+    ],
+    "videoPath": "/assets/aistudio/VID-20261110-WA0092_76b55817.mp4",
+    "videoTitle": "المقطع التوعوي الرسمي: اليوم العالمي للسكري ١٤ نوفمبر",
+    "videoDescription": "رسالة توعوية ملهمة وشاملة لطالبات المرحلة الابتدائية وأولياء الأمور والمعلمين، توضح أعراض السكري وأهمية الحركة والغذاء الصحي والفحص المبكر.",
+    "videoThumbnail": "",
+    "videoRequired": false,
+    "logoUrl": "",
+    "mascotVisible": true,
+    "schoolName": "المدرسة الابتدائية ٣١١",
+    "teacherName": "أ. خلود الحريصي"
+  },
+  "students": [
+    {
+      "id": "std_1f534fcb",
+      "fullName": "نورة محمد القحطاني",
+      "grade": 5,
+      "className": "١",
+      "createdAt": "2026-11-10T16:43:06.011Z",
+      "totalPoints": 0,
+      "completedStations": [],
+      "badges": []
+    },
+    {
+      "id": "std_cd2fe08b",
+      "fullName": "فاطمة علي أحمد",
+      "grade": 3,
+      "className": "١",
+      "createdAt": "2026-11-11T05:02:11.286Z",
+      "totalPoints": 0,
+      "completedStations": [],
+      "badges": []
+    },
+    {
+      "id": "std_3c083dd9",
+      "fullName": "ريم خالد العتيبي",
+      "grade": 4,
+      "className": "٢",
+      "createdAt": "2026-11-11T05:06:45.251Z",
+      "totalPoints": 0,
+      "completedStations": [],
+      "badges": []
+    }
+  ],
+  "attempts": [],
+  "messages": [],
+  "questions": [
+    {
+      "id": "q1-1",
+      "stationId": 1,
+      "questionText": "ما العضو الذي ينتج الإنسولين في جسم الإنسان؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "القلب"
+        },
+        {
+          "id": "b",
+          "text": "البنكرياس"
+        },
+        {
+          "id": "c",
+          "text": "الرئة"
+        },
+        {
+          "id": "d",
+          "text": "المعدة"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "البنكرياس هو العضو المسؤول عن إنتاج هرمون الإنسولين الذي يساعد خلايا الجسم على الاستفادة من السكر في الدم.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "q1-2",
+      "stationId": 1,
+      "questionText": "ما الوظيفة الأساسية لهرمون الإنسولين؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "يساعد خلايا الجسم على استخدام الجلوكوز (السكر) لإنتاج الطاقة"
+        },
+        {
+          "id": "b",
+          "text": "يقوم بهضم الطعام مباشرة في المعدة"
+        },
+        {
+          "id": "c",
+          "text": "يقوي العظام بشكل فوري"
+        },
+        {
+          "id": "d",
+          "text": "ينظم حركة التنفس"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "يساعد الإنسولين خلايا الجسم على امتصاص واستخدام الجلوكوز للحصول على الطاقة الحيوية.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "q1-3",
+      "stationId": 1,
+      "questionText": "هل يوجد نوع واحد فقط من مرض السكري؟",
+      "questionType": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم"
+        },
+        {
+          "id": "b",
+          "text": "لا"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "يوجد أكثر من نوع لمرض السكري، وأشهرهما: النوع الأول والنوع الثاني، ولكل منهما أسبابه وخصائصه.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "q1-4",
+      "stationId": 1,
+      "questionText": "هل الإصابة بالسكري من النوع الأول تحدث بسبب الإكثار من تناول الحلويات؟",
+      "questionType": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم"
+        },
+        {
+          "id": "b",
+          "text": "لا"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "السكري من النوع الأول هو حالة مناعية ذاتية ولا يحدث بسبب تناول الحلويات، ويجب تجنب لوم المصاب أو ربطه بالحلويات وحدها.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "q1-5",
+      "stationId": 1,
+      "questionText": "هل يمكن أن يساعد النشاط البدني ونمط الحياة الصحي في تقليل عوامل خطر الإصابة بالنوع الثاني؟",
+      "questionType": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم"
+        },
+        {
+          "id": "b",
+          "text": "لا"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "النشاط البدني المنتظم وتناول الغذاء المتوازن يساعدان بشكل كبير في تقليل عوامل خطر الإصابة بالنوع الثاني.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "q1-6",
+      "stationId": 1,
+      "questionText": "ماذا نفعل عند الشعور بأعراض صحية مقلقة وغير معتادة؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "نتجاهلها وننتظر أن تزول وحدها"
+        },
+        {
+          "id": "b",
+          "text": "نشخص أنفسنا بالبحث في الإنترنت"
+        },
+        {
+          "id": "c",
+          "text": "نخبر ولي الأمر ونراجع المختص الصحي فورًا"
+        },
+        {
+          "id": "d",
+          "text": "نأخذ دواء شخص آخر دون استشارة"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "المختص الصحي (الطبيب) هو الشخص المؤهل الوحيد لتقييم الأعراض وتقديم التشخيص السليم.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "q2-1",
+      "stationId": 2,
+      "questionText": "أي الأطعمة التالية يُعد من مجموعة الخضراوات الصحية؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "الخيار"
+        },
+        {
+          "id": "b",
+          "text": "البيض"
+        },
+        {
+          "id": "c",
+          "text": "الحليب"
+        },
+        {
+          "id": "d",
+          "text": "الخبز"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "الخيار من الخضراوات الغنية بالماء والألياف والفيتامينات المفيدة.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "q2-2",
+      "stationId": 2,
+      "questionText": "أي مما يلي يُعد مصدرًا ممتازًا للبروتين الذي يبني العضلات؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "التفاح"
+        },
+        {
+          "id": "b",
+          "text": "البيض"
+        },
+        {
+          "id": "c",
+          "text": "الماء"
+        },
+        {
+          "id": "d",
+          "text": "الخس"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "البيض والأسماك والبقوليات من المصادر الغنية بالبروتين الصحي.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "q2-3",
+      "stationId": 2,
+      "questionText": "ما هو المشروب الأفضل لترطيب الجسم والحفاظ على صحته؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "الماء النقي"
+        },
+        {
+          "id": "b",
+          "text": "المشروب الغازي"
+        },
+        {
+          "id": "c",
+          "text": "مشروب الطاقة"
+        },
+        {
+          "id": "d",
+          "text": "الشراب الصناعي المحلى"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "الماء النقي هو الخيار الذهبي لترطيب الجسم ودعم وظائف الأعضاء دون سكريات مضافة.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "q2-4",
+      "stationId": 2,
+      "questionText": "لماذا نحرص على تنويع الأطعمة التي نتناولها في وجباتنا؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "للحصول على عناصر وفيتامينات غذائية متنوعة ومتكاملة"
+        },
+        {
+          "id": "b",
+          "text": "لتناول صنف واحد فقط دائمًا"
+        },
+        {
+          "id": "c",
+          "text": "لإلغاء الخضراوات من أطباقنا"
+        },
+        {
+          "id": "d",
+          "text": "لتجنب شرب الماء"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "التنوع والتوازن والاعتدال يضمن للجسم الحصول على جميع الفيتامينات والمعادن الضرورية للنمو.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "q2-5",
+      "stationId": 2,
+      "questionText": "أي وجبة مما يلي تبدو الأكثر توازنًا وتنوعًا صحيًا؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "أرز أبيض فقط"
+        },
+        {
+          "id": "b",
+          "text": "حلوى وشوكولاتة فقط"
+        },
+        {
+          "id": "c",
+          "text": "خضراوات طازجة وبروتين وحبوب كاملة وماء"
+        },
+        {
+          "id": "d",
+          "text": "مشروب محلى بالسكريات وبسكويت فقط"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "الوجبة المتكاملة تحتوي على خضراوات، بروتين، حبوب كاملة، ومشروب الماء النقي.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "q3-1",
+      "stationId": 3,
+      "questionText": "شعرت زميلتكِ بعطش شديد ومتكرر وشعور بالإرهاق، ما التصرف السليم؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "تتجاهل الأمر وتنتظر"
+        },
+        {
+          "id": "b",
+          "text": "تخبر ولي أمرها لمراجعة الطبيب المختص لإجراء فحص الاطمئنان"
+        },
+        {
+          "id": "c",
+          "text": "تتناول دواء أخذته من إحدى زميلاتها"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "التصرف السليم هو إبلاغ ولي الأمر واستشارة الطبيب المختص لتقييم الحالة الصحية بدقة.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "q3-2",
+      "stationId": 3,
+      "questionText": "هل يمكن تشخيص الإصابة بالسكري بمجرد النظر إلى شكل الشخص أو وزنه؟",
+      "questionType": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم، يمكن بالعين المجردة"
+        },
+        {
+          "id": "b",
+          "text": "لا، التشخيص يتطلب فحوصات مخبرية دقيقة من المختصين"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "لا يمكن تشخيص السكري بالنظر أو التخمين؛ فالفحوصات الطبية المعتمدة هي الأساس.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "q3-3",
+      "stationId": 3,
+      "questionText": "من هو المسؤول المؤهل علميًا لتفسير نتائج الفحوصات الطبية وتقديم التشخيص؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "الطبيب أو المختص الصحي المعتمد"
+        },
+        {
+          "id": "b",
+          "text": "الصديقات في المدرسة"
+        },
+        {
+          "id": "c",
+          "text": "منشورات غير موثوقة في وسائل التواصل"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "الفريق الطبي المختص هو المخول الوحيد بقراءة الفحوصات ووضع خطة الرعاية.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "q3-4",
+      "stationId": 3,
+      "questionText": "لماذا نهتم بإجراء الفحوصات الطبية الدورية المناسبة؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "للاطمئنان على الصحة والكشف المبكر عن أي تغيرات"
+        },
+        {
+          "id": "b",
+          "text": "للحصول على درجات مدرسية"
+        },
+        {
+          "id": "c",
+          "text": "لمجرد التسلية"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "الفحوصات الدورية تعزز الوقاية وتتيح الكشف المبكر والرعاية في الوقت المناسب.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "q3-5",
+      "stationId": 3,
+      "questionText": "ماذا نفعل إذا سمعنا معلومة صحية أو وصفة علاجية مجهولة المصدر؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "ننشرها فورًا دون تفكير"
+        },
+        {
+          "id": "b",
+          "text": "نتحقق من المنصات والمصادر الرسمية المعتمدة مثل وزارة الصحة"
+        },
+        {
+          "id": "c",
+          "text": "نصدقها ونطبقها فورًا"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "سفيرة الصحة الذكية تتحقق دائمًا من المصادر الرسمية الموثوقة كوزارة الصحة.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "q3-6",
+      "stationId": 3,
+      "questionText": "هل يحتاج الشخص المصاب بالسكري إلى متابعة منتظمة مع فريقه الطبي؟",
+      "questionType": "true_false",
+      "options": [
+        {
+          "id": "a",
+          "text": "نعم، للمحافظة على استقرار السكر وصحة الجسم"
+        },
+        {
+          "id": "b",
+          "text": "لا، المتابعة غير ضرورية"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "المتابعة الطبية المنتظمة تمكّن المصاب من عيش حياة طبيعية ونشطة ومطمئنة.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "q4-1",
+      "stationId": 4,
+      "questionText": "أي مما يلي يُعد نشاطًا بدنيًا يعزز صحة القلب والجسم؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "المشي واللعب الحركي"
+        },
+        {
+          "id": "b",
+          "text": "مشاهدة الشاشات لساعات متواصلة"
+        },
+        {
+          "id": "c",
+          "text": "الجلوس الطويل دون حركة"
+        },
+        {
+          "id": "d",
+          "text": "النوم طوال النهار"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "المشي والجري وركوب الدراجة واللعب النشط تنشط الدورة الدموية وتقوي المناعة.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "q4-2",
+      "stationId": 4,
+      "questionText": "ما هو التصرف المناسب قبل البدء في ممارسة النشاط البدني واللعب؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "ارتداء حذاء مناسب واختيار مكان آمن ومناسب"
+        },
+        {
+          "id": "b",
+          "text": "اللعب في طريق السيارات"
+        },
+        {
+          "id": "c",
+          "text": "إهمال قواعد السلامة"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "السلامة أولاً: الحذاء الرياضي المناسب والمكان الآمن يقيان من الإصابات.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "q4-3",
+      "stationId": 4,
+      "questionText": "أيهما يساعد أكثر على تقليل الخمول والكسل؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "الحركة والقيام بتمارين خفيفة بين فترات الدراسة"
+        },
+        {
+          "id": "b",
+          "text": "الجلوس طوال اليوم دون تغيير الوضعية"
+        },
+        {
+          "id": "c",
+          "text": "تجنب صعود الدرج دائمًا"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "أخذ فترات استراحة حركية يجدد النشاط والتركيز الذهني.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "q4-4",
+      "stationId": 4,
+      "questionText": "ماذا تفعلين إذا شعرتِ بتعب مفاجئ أو دوار أثناء النشاط البدني؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "تستمرين وتضغطين على نفسك"
+        },
+        {
+          "id": "b",
+          "text": "تتوقفين وتستريحين وتبلغين المعلمة أو ولي الأمر"
+        },
+        {
+          "id": "c",
+          "text": "تتجاهلين الإشارة التي يرسلها جسمك"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "الاستماع لنداء الجسم والتوقف عند التعب أمر ضروري للحفاظ على السلامة.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "q4-5",
+      "stationId": 4,
+      "questionText": "أي نشاط ممتع يمكنكِ ممارسته ومشاركته مع أفراد أسرتكِ؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "المشي في الحديقة أو الممشى العائلي"
+        },
+        {
+          "id": "b",
+          "text": "الصمت والجلوس على الهواتف دون تواصل"
+        },
+        {
+          "id": "c",
+          "text": "عدم ممارسة أي حركة معًا"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "المشي الجماعي والأنشطة الأسرية تصنع ذكريات جميلة وتعزز صحة الأسرة.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "q5-1",
+      "stationId": 5,
+      "questionText": "أسرتكِ تريد اختيار مشروب للوجبة العائلية، ماذا تقترحين كسفيرة للصحة؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "الماء النقي مع شرائح الليمون أو النعناع المنعش"
+        },
+        {
+          "id": "b",
+          "text": "مشروب غازي مليء بالسكريات دائمًا"
+        },
+        {
+          "id": "c",
+          "text": "مشروب طاقة غير مناسب للأطفال"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "اقتراح الماء المنعش هو اختيار سفيرة الصحة الذكية!",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "q5-2",
+      "stationId": 5,
+      "questionText": "كيف تشجعين أفراد أسرتكِ على الحركة وتقليل الجلوس أمام الشاشات؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "اقتراح مسابقة مشي أو لعبة حركية جماعية ممتعة"
+        },
+        {
+          "id": "b",
+          "text": "الجلوس طوال اليوم أمام التلفاز"
+        },
+        {
+          "id": "c",
+          "text": "منع الحركة داخل المنزل"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "التشجيع الإيجابي والمرح يحفزان الأسرة على ممارسة الرياضة.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "q5-3",
+      "stationId": 5,
+      "questionText": "إذا كانت إحدى زميلاتكِ أو قريباتكِ مصابة بالسكري، فكيف تتعاملين معها؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "أتنمر عليها وأعزلها"
+        },
+        {
+          "id": "b",
+          "text": "أدعمها وأحترمها وأعاملها كصديقة عزيزة وطبيعية"
+        },
+        {
+          "id": "c",
+          "text": "ألومها وأسألها بأسلوب مزعج"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "الاحترام والدعم والتعاطف قيم نبيلة؛ فالمصاب بالسكري بطل يعيش حياة كاملة وطبيعية.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "q5-4",
+      "stationId": 5,
+      "questionText": "وصلتكِ رسالة على الهاتف تدعي وجود علاج سحري وسريع للسكري، ماذا تفعلين؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "أنشرها فورًا في مجموعات العائلة"
+        },
+        {
+          "id": "b",
+          "text": "أتحقق أولاً من موقع وزارة الصحة والجهات الطبية المعتمدة"
+        },
+        {
+          "id": "c",
+          "text": "أصدقها فورًا دون فحص"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "سفيرة الوعي لا تنشر الشائعات، بل تعتمد على المصادر الرسمية المعتمدة فقط.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "q5-5",
+      "stationId": 5,
+      "questionText": "ما التصرف الذي يعبر عن صفات سفيرة الصحة الحقيقية؟",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "id": "a",
+          "text": "نشر الوعي والعادات الصحية بلطف ومحبة وقدوة حسنة"
+        },
+        {
+          "id": "b",
+          "text": "تخويف الآخرين وإصدار الأوامر"
+        },
+        {
+          "id": "c",
+          "text": "إعطاء أدوية للناس دون علم أو اختصاص"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "القدوة واللطف هما سر نشر الوعي الصحي الفعّال في المنزل والمجتمع.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "q6-math-1",
+      "stationId": 6,
+      "questionText": "سعة عبوة ماء تعليمية افتراضية ٢ لتر، كم تساوي هذه السعة بوحدة الملليلتر (مل)؟",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "٢٠٠ مل"
+        },
+        {
+          "id": "b",
+          "text": "٥٠٠ مل"
+        },
+        {
+          "id": "c",
+          "text": "٢٠٠٠ مل"
+        },
+        {
+          "id": "d",
+          "text": "٢٠٠٠٠ مل"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "اللتر الواحد يساوي ١٠٠٠ ملليلتر، إذن: ٢ × ١٠٠٠ = ٢٠٠٠ ملليلتر.",
+      "points": 5,
+      "gradeLevels": [
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "q6-math-2",
+      "stationId": 6,
+      "questionText": "طبق صحي تعليمي مقسم إلى ٤ أجزاء متساوية، خُصص جزآن منها للخضراوات. ما الكسر العشري الذي يمثل هذين الجزأين؟",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "٠٫٢٥"
+        },
+        {
+          "id": "b",
+          "text": "٠٫٥"
+        },
+        {
+          "id": "c",
+          "text": "٠٫٧٥"
+        },
+        {
+          "id": "d",
+          "text": "١٫٠"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "٢ ⁄ ٤ = ١ ⁄ ٢ = ٠٫٥ (نصف الطبق الصحي خضراوات وفواكه).",
+      "points": 5,
+      "gradeLevels": [
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "q6-math-3",
+      "stationId": 6,
+      "questionText": "شاركت ٢٠ طالبة في نشاط صحي، وأكملت ١٥ طالبة التحدي كاملاً. ما الكسر الذي يمثل الطالبات المنجزات في أبسط صورة؟",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "١ ⁄ ٢"
+        },
+        {
+          "id": "b",
+          "text": "٢ ⁄ ٣"
+        },
+        {
+          "id": "c",
+          "text": "٣ ⁄ ٤"
+        },
+        {
+          "id": "d",
+          "text": "٤ ⁄ ٥"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "١٥ ⁄ ٢٠ = (١٥ ÷ ٥) ⁄ (٢٠ ÷ ٥) = ٣ ⁄ ٤ في أبسط صورة.",
+      "points": 5,
+      "gradeLevels": [
+        5,
+        6
+      ],
+      "difficulty": "hard",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "q6-math-4",
+      "stationId": 6,
+      "questionText": "أجابت بطلة الصحة عن ٣٠ سؤالاً صحيحًا من أصل ٤٠ سؤالاً في بنك التحديات. ما النسبة المئوية لإجاباتها الصحيحة؟",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "٢٥٪"
+        },
+        {
+          "id": "b",
+          "text": "٥٠٪"
+        },
+        {
+          "id": "c",
+          "text": "٧٥٪"
+        },
+        {
+          "id": "d",
+          "text": "٨٠٪"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "٣٠ ÷ ٤٠ = ٠٫٧٥ = ٧٥٪ نسبة ممتازة من الإجابات الصحيحة.",
+      "points": 5,
+      "gradeLevels": [
+        5,
+        6
+      ],
+      "difficulty": "hard",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "q6-math-5",
+      "stationId": 6,
+      "questionText": "ما المتوسط الحسابي للأعداد التدريبية الافتراضية التالية: ٨٠، ١٠٠، ١٢٠؟ (قيم افتراضية للتدريب الرياضي فقط)",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "٨٠"
+        },
+        {
+          "id": "b",
+          "text": "٩٠"
+        },
+        {
+          "id": "c",
+          "text": "١٠٠"
+        },
+        {
+          "id": "d",
+          "text": "١٢٠"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "المتوسط الحسابي = مجموع القيم ÷ عددها = (٨٠ + ١٠٠ + ١٢٠) ÷ ٣ = ٣٠٠ ÷ ٣ = ١٠٠.",
+      "points": 5,
+      "gradeLevels": [
+        5,
+        6
+      ],
+      "difficulty": "medium",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "q6-g34-1",
+      "stationId": 6,
+      "questionText": "تمشي سارة ٤ أيام في الأسبوع، وفي كل يوم تمشي مسافة ٢ كيلومتر. كم إجمالي الكيلومترات التي مشتها في الأسبوع؟",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "٦ كيلومترات"
+        },
+        {
+          "id": "b",
+          "text": "٨ كيلومترات"
+        },
+        {
+          "id": "c",
+          "text": "١٠ كيلومترات"
+        },
+        {
+          "id": "d",
+          "text": "١٢ كيلومترًا"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "٤ أيام × ٢ كم = ٨ كيلومترات أسبوعيًا.",
+      "points": 5,
+      "gradeLevels": [
+        3,
+        4
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "q6-g34-2",
+      "stationId": 6,
+      "questionText": "قسمت نورة تفاحة إلى ٤ قطع متساوية، وأكلت قطعتين. ما الكسر الذي يمثل ما أكلته؟",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "١ ⁄ ٤"
+        },
+        {
+          "id": "b",
+          "text": "٢ ⁄ ٤ (أي النصف ١ ⁄ ٢)"
+        },
+        {
+          "id": "c",
+          "text": "٣ ⁄ ٤"
+        },
+        {
+          "id": "d",
+          "text": "٤ ⁄ ٤"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "قطعتان من ٤ تساوي النصف (١ ⁄ ٢).",
+      "points": 5,
+      "gradeLevels": [
+        3,
+        4
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "q6-g34-3",
+      "stationId": 6,
+      "questionText": "إذا كانت الطالبة تحتاج لشرب ٦ أكواب من الماء يوميًا، فشربت حتى الآن ٤ أكواب. كم كوبًا بقي لتكمل هدفها؟",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "كوب واحد"
+        },
+        {
+          "id": "b",
+          "text": "كوبان (٢)"
+        },
+        {
+          "id": "c",
+          "text": "٣ أكواب"
+        },
+        {
+          "id": "d",
+          "text": "٤ أكواب"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "٦ - ٤ = كوبان متبقيان للمحافظة على ترطيب الجسم.",
+      "points": 5,
+      "gradeLevels": [
+        3,
+        4
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "q6-g12-1",
+      "stationId": 6,
+      "questionText": "في سلة الفواكه ٣ تفاحات حمراء وتفاحتان خضراوان. كم عدد التفاحات في السلة جميعها؟",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "٣ تفاحات"
+        },
+        {
+          "id": "b",
+          "text": "٤ تفاحات"
+        },
+        {
+          "id": "c",
+          "text": "٥ تفاحات"
+        },
+        {
+          "id": "d",
+          "text": "٦ تفاحات"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "٣ + ٢ = ٥ تفاحات لذيذة ومغذية!",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "q6-g12-2",
+      "stationId": 6,
+      "questionText": "أيهما أكثر صحة وترطيبًا للجسم: شرب كوب واحد من الماء أم ٥ أكواب موزعة على اليوم؟",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "٥ أكواب موزعة بانتظام"
+        },
+        {
+          "id": "b",
+          "text": "كوب واحد فقط"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "العدد ٥ أكبر من ١، وشرب كمية كافية من الماء يحافظ على حيوية الجسم.",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "q6-g12-3",
+      "stationId": 6,
+      "questionText": "مارست ريم رياضة القفز ٤ مرات في الصباح و ٤ مرات في المساء. كم مجموع قفزاتها؟",
+      "questionType": "math",
+      "options": [
+        {
+          "id": "a",
+          "text": "٦"
+        },
+        {
+          "id": "b",
+          "text": "٧"
+        },
+        {
+          "id": "c",
+          "text": "٨"
+        },
+        {
+          "id": "d",
+          "text": "٩"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "٤ + ٤ = ٨ قفزات نشيطة!",
+      "points": 5,
+      "gradeLevels": [
+        1,
+        2
+      ],
+      "difficulty": "easy",
+      "version": 1,
+      "isActive": true,
+      "sortOrder": 3
+    }
+  ]
+}
